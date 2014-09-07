@@ -1,0 +1,129 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                               BODY
+*/
+/*
+-------------------------------------------    ----------------------------------------------------------------------------------------------------------------------------------------*/
+body                                           { color: #F4F7D9; margin: 0; padding: 0; width: 100%; height: 100%; font-family:  "Candara" , Arial,Helvetica,sans-serif;                                              
+                                                background: url('../img/background_3.jpg') no-repeat center center fixed; 
+                                                -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+body a                                         { text-decoration: none; }
+
+.clearfix                                      { display: inline-block; }
+html[xmlns] .clearfix                          { display: block; }
+
+* html .clearfix                               { height: 1%; }
+
+.clearfix:before,
+.clearfix:after                                { content: "."; display: block; height: 0; overflow: hidden; }
+.clearfix:after                                { clear: both; }
+.clearfix                                      { zoom: 1; } /* IE < 8 */
+
+.wrapper                                       { margin-left: 15%; margin-right: 15%; }
+
+.content                                       { height: auto; margin-bottom: 150px; }
+
+.bodyContent                                   { color: black; background-color: #F4F7D9; padding: 50px 0 50px 0;  }
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                 HEADER
+*/
+/*
+-------------------------------------------      ----------------------------------------------------------------------------------------------------------------------------------------*/
+.navWrapper                                      { width: 100%; height: 40px; padding: 0; background-color: black; color: whitesmoke; font-size: 15px; }
+.navWrapper a                                    { color: whitesmoke; text-decoration: none; }
+.navWrapper a:hover                              { color: #5EA092; }
+
+
+.mainMenu                                        { float: right; margin-top: 0px; }
+.mainMenu .navigationLinks                       { float: right;}
+.mainMenu .navigationLinks li                    { float: left; }
+
+.mainMenu .navigationLinks li a                  { display: inline-block; padding: 0 35px 0 35px; line-height: 35px;}
+.mainMenu .navigationLinks li a:hover            { color: #5EA092;}
+.mainMenu .navigationLinks li a:active           { color: #5EA092;}
+
+.mainMenu .navigationLinks .active a             { color: #5EA092;}
+.mainMenu .navigationLinks .active a:hover       { color: #5EA092;}
+
+.mainMenu .navigationLinks .active a             { color: #5EA092;}
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                 LOGO
+*/
+/*
+-------------------------------------------      ----------------------------------------------------------------------------------------------------------------------------------------*/
+.logo                                            { height: 170px; margin-top: 50px; margin-left: 10px; }
+.logoText                                        { font-size: 40px; color: #F4F7D9; padding-top: 5px; padding-left: 13px; }
+.dot                                             { color: #5EA092;  }
+
+ .circle                                         { width: 60px; height: 60px; background: #5EA092;
+                                                  -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
+ 
+ /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                 TITLE
+*/
+/*
+-------------------------------------------      ----------------------------------------------------------------------------------------------------------------------------------------*/
+.titleArea                                       { font-size: 80px; height: 200px; margin-top: 60px; }
+
+
+ 
+ 
+ /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                 FOOTER
+*/
+/*
+-------------------------------------------      ----------------------------------------------------------------------------------------------------------------------------------------*/
+.footer                                          { font-size: 10px; height: 50px;bottom:0px; margin-top: 10px; }
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                 BUTTON
+*/
+/*
+-------------------------------------------      ----------------------------------------------------------------------------------------------------------------------------------------*/
+.btn                                            { background: #5EA092;  background-image: -webkit-linear-gradient(top, #5EA092, #5EA092);  background-image: -moz-linear-gradient(top, #5EA092, #5EA092);
+                                                  background-image: -ms-linear-gradient(top, #5EA092, #5EA092);  background-image: -o-linear-gradient(top, #5EA092, #5EA092);
+                                                  background-image: linear-gradient(to bottom, #5EA092, #5EA092);   -webkit-border-radius: 0;   -moz-border-radius: 0;
+                                                  border-radius: 2px; font-family: Helvetica; color: #ffffff;   font-size: 17px; text-decoration: none; width: 140px; height: 30px; margin-top: 20px; }
+
+.btn:hover  *                                   { background: #5EA092; background-image: -webkit-linear-gradient(top, #5EA092, #549184);  background-image: -moz-linear-gradient(top, #5EA092, #549184);
+                                                  background-image: -ms-linear-gradient(top, #5EA092, #549184);  background-image: -o-linear-gradient(top, #5EA092, #549184);
+                                                  background-image: linear-gradient(to bottom, #5EA092, #549184);   text-decoration: none; }
+.centerBtn  *                                   { text-align: center; }
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                 LISTS
+*/
+/*
+-------------------------------------------      ----------------------------------------------------------------------------------------------------------------------------------------*/
+.sideBySide                                      { display: inline-block;  width: 100%; margin: 0 auto; }
+.left                                            { float:left; width: 450px; }
+.right                                           { float:right; width: 450px; }
+.listBackground                                  { color: #F4F7D9; background-color: #F4F7D9; margin:0 0 0 0; padding: 25px 5px 50px 50px; background-color:rgba(84,145,132,0.5); }
+.listBackground a                                { color: #F4F7D9;}
+
+
+.name                                            {width: 200px;padding:3px;}
+.edit                                            {width: 30px; padding:5px; font-size: 12px;  }
+
+
+.tableStatus                                    {width: 50px;}
+.tableAnswer                                    {width: 300px;}
+
+.editQuestion                                   { width: 600px;  padding: 5px;}
+.editAnswer                                     { width: 200px;  padding: 5px;}

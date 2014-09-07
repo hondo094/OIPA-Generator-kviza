@@ -1,0 +1,17 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                               FORMS
+*/
+/*
+-------------------------------------------    ----------------------------------------------------------------------------------------------------------------------------------------*/
+.formInput                                     { margin-top: 10px;  width: 100%; margin-bottom: 10px; }
+.formInputArea                                 { width: 300px; padding: 5px; }
+.formCaptchaInput                              { width: 140px; padding: 5px; }
+
+.formArea                                      { margin-top: 50px}
+
+.captchaArea                                   { width: 300px;}
+.leftCaptcha                                   { float:left; width: 140px; padding: 5px;  }
+.rightCaptcha                                  { float: right; width: 140px; padding: 5px; }
+
+.titleArea { margin-bottom: 0px; }

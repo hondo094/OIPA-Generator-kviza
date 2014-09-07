@@ -1,0 +1,33 @@
+! Kviz o gradovima 
+
+# broj unutar viticastih zagrada oznacava o kojem tipu pitanja se radi
+# 1 - pitanje koje ima samo jedan tocan odgovor
+# 2 - pitanje u kojem je potrebno odabrati vise opcija
+# 3 - pitanje na koje korisnik mora sam unijeti odgovor
+
+# format pitanja u kojem je tocan samo jedan odgovor (4 pitanja)
+#Tekst pitanja{1}:odgovor1,odgovor2,odgovor3,...,odgovorN;odgovor1
+
+Glavni grad Italije je{1}:Rim,Genova,Verona;Rim
+Kako se zove glavni grad Francuske?{1}:Pariz,Amsterdam,Zagreb;Pariz
+Koji se od navedenih gradova nalazi u Rusiji?{1}:Minsk,Moskva;Moskva
+Tokio je glavni grad{1}:Kine,Japana,Indije,Makedonije;Japana
+
+
+# format pitanja u kojem je tocno vise odgovora (4 pitanja)
+#Drugi tekst pitanja{2}:odgovor1,odgovor2,odgovor3,...,odgovorN;odgovorA,odgovorB,...,odgovorK
+
+Gradovi koji se nalaze u Portugalu su{2}:Barcelona,Madrid,Lisabon,Verona,Porto;Lisabon,Porto
+Gradovi u SAD-u su{2}:New York,Los Angeles,Zagreb,Barcelona;New York,Los Angeles
+Gradovi koji se nalaze u Europi su{2}:Prag,Peking,Skopje;Prag,Skopje
+Gradovi koji se ne nalaze u Europi su{2}: Sacramento,Monaco,Mostar,Ottawa;Sacramento,Ottawa
+
+
+
+# format pitanja u kojem korisnik mora sam unijeti odgovor (2 pitanja)
+# tocnost korisnikovog odgovora ne smije ovisiti o koristenju malih i velikih slova,
+# odnosno odgovori `jedan'i `jEdAN' moraju biti jednaki
+#Opet pitanje{3}:;odgovor
+
+Glavni grad Makedonije je{3}:;Skoplje
+Glavni grad Slovenije je{3}:;Ljubljana

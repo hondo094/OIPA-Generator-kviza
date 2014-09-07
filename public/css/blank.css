@@ -1,0 +1,21 @@
+*               { padding: 0px; margin: 0px; }
+html *          { padding: 0px; margin: 0px; }
+html            { overflow: auto; }
+
+table           { border-collapse: collapse; border-spacing: 0px; }
+td              { padding: 0 0 0 0; vertical-align: top; }
+
+img             { outline: none; }
+
+p               { margin: 0px; }
+
+div             { padding: 0 0 0 0; border-width: 0px; }
+
+a               { outline: none; }
+a *             { border-width: 0; outline: none; }
+
+ul              { margin-top: 0px; margin-bottom: 0px; 
+                  list-style-image:none; list-style-position:outside; list-style-type:none; }
+li              { list-style-image:none; list-style-position:outside; list-style-type:none; }
+
+h1,h2,h3        { padding: 0px; margin: 0px; line-height:normal; }
